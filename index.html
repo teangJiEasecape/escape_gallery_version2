@@ -16,13 +16,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     
     
-        <link rel="manifest" href="/escape_company/manifest.json" />
-        <link rel="manifest" href="/escape_company/manifest.webmanifest" />
+        <link rel="manifest" href="/escape_gallery/manifest.json" />
+        <link rel="manifest" href="/escape_gallery/manifest.webmanifest" />
         <meta name="theme-color" content="#000000" />
     </head>
     <body>
 
         
+      <div class="contentBox">
         <div class="imgBox">
             <div class="passwordDiv">
               <input type="text" class="ipt" placeholder="비밀번호를 입력해주세요">
@@ -30,13 +31,14 @@
             </div>
             <img src="./img/show.jpeg" alt="에어컨" class="img" />
         </div>
+      </div>
 
         <script>
             // service-worker 등록 코드
             if ('serviceWorker' in navigator) {
               window.addEventListener('load', function () {
                 navigator.serviceWorker
-                  .register('/escape_company/service-worker.js')
+                  .register('/escape_gallery/service-worker.js')
                   .then(function (registration) {
                     console.log(
                       'ServiceWorker registration successful with scope: ',

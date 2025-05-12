@@ -36,6 +36,10 @@ select::-ms-expand{ display:none; }
     .paging_box{ font-size: 13px; }
 } /* mobile */
 
+body{ background-color: #222; }
+
+
+.contentBox{ max-width: 400px; margin: 0 auto; }
 
 .imgBox{ flex-direction: column; min-height: 100vh; background-color: #222; padding: 20px; display: flex; align-items: center; justify-content: center; }
 .imgBox .passwordDiv{ max-width: 100%; margin: 10px 0; display: flex; gap: 10px; width: 100%; }
