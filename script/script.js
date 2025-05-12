@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     $('.imgBox .passwordDiv .submitBtn').click(function(){
         const password = $('.imgBox .passwordDiv .ipt').val();
-        if (password === "1234") {
+        if (password === "943706") {
             $('.passwordDiv').hide();
             $('.imgBox .img').show();
         } else {
