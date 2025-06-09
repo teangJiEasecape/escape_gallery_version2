@@ -2,7 +2,7 @@
     "name": "갤러리",
     "short_name": "갤러리",
     "description": "갤러리",
-    "start_url": "/escape_gallery/",
+    "start_url": "/escape_gallery2/",
     "display": "standalone",
     "background_color": "#fff",
     "icons": [

@@ -39,6 +39,7 @@ select::-ms-expand{ display:none; }
 body{ background-color: #222; }
 
 
+h1{ font-size: 18px; color: #fff; margin-bottom: 20px; font-weight: 700; }
 .contentBox{ max-width: 400px; margin: 0 auto; }
 
 .imgBox{ flex-direction: column; min-height: 100vh; background-color: #222; padding: 20px; display: flex; align-items: center; justify-content: center; }
@@ -47,3 +48,16 @@ body{ background-color: #222; }
 .imgBox .passwordDiv .submitBtn{ flex-shrink: 0; padding: 10px; font-size: 14px; background-color: #fff; border: none;  }
 
 .img{ display: none; max-width: 100%; }
+.error{ display: none; color: #fff; }
+.error span, .error b{ color: red; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox  */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
