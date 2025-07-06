@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     $button.click(function() {
         const password = $input.val();
-        if (password === "943706") {
+        if (password === "732543") {
             $('.passwordDiv').hide();
             $('.imgBox .img').show();
         } else {

@@ -1,8 +1,8 @@
 {
-    "name": "갤러리",
-    "short_name": "갤러리",
-    "description": "갤러리",
-    "start_url": "/escape_gallery2/",
+    "name": "이스케이프 컴퍼니 갤러리 2",
+    "short_name": "이스케이프 컴퍼니 갤러리 2",
+    "description": "이스케이프 컴퍼니 갤러리 2",
+    "start_url": "/escape_gallery_version2/",
     "display": "standalone",
     "background_color": "#fff",
     "icons": [

@@ -1,14 +1,14 @@
 const CACHE_NAME = 'hintapp-cache-v1';
 const urlsToCache = [
-  '/escape_gallery2/',          // 홈페이지 URL
-  '/escape_gallery2/index.html',
-  '/escape_gallery2/css/style.css',
-  '/escape_gallery2/script/script.js',
-  '/escape_gallery2/script/app.js',
-  '/escape_gallery2/img/show.jpeg',
-  '/escape_gallery2/manifest.json',
-  '/escape_gallery2/img/gallery.png',
-  '/escape_gallery2/css/style.css'
+  '/escape_gallery_version2/',          // 홈페이지 URL
+  '/escape_gallery_version2/index.html',
+  '/escape_gallery_version2/css/style.css',
+  '/escape_gallery_version2/script/script.js',
+  '/escape_gallery_version2/script/app.js',
+  '/escape_gallery_version2/img/show.png',
+  '/escape_gallery_version2/manifest.json',
+  '/escape_gallery_version2/img/gallery.png',
+  '/escape_gallery_version2/css/style.css'
 ];
 
 // 설치 이벤트 (처음 설치할 때 파일들 캐싱)
